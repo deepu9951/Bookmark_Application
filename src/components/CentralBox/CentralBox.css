@@ -1,0 +1,64 @@
+.centralizedBox{
+  position: absolute;
+  border: 3px solid #cc33ff;
+  width: 210px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.5em 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    position: relative;
+    margin: 0px;
+    height: 0.7 rem;
+  }
+
+.addButton {
+    background-color: #cc33ff;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+}
+
+p{
+    color: #cc33ff;
+}
+
+.bookMarklist{
+    display:flex;
+    width: 140px;
+    position: absolute;     
+    align-items: center;
+    justify-content: center;
+    color:rgb(63, 26, 196);
+    background: rgba(0, 0, 0, 0.5);  
+    padding: 20px;
+    white-space: pre;
+    margin: 10px;
+}
+
+a{
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+  }
+
+  img {
+      display: inline;
+  }
+
